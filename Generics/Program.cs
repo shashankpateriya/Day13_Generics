@@ -16,12 +16,15 @@ namespace Generics
 
             int[] intArray = { 7986, 4573, 536, 87, 34 };
             GenericMaximum<int> generic = new GenericMaximum<int>(intArray);
+            generic.PrintMaxValue();
 
             double[] doubleArray = { 5.6, 458.5, 789.98, 538.79, 657.88 };
             GenericMaximum<double> genericDouble = new GenericMaximum<double>(doubleArray);
+            genericDouble.PrintMaxValue();
 
             string[] stringArray = { "onion", "tomato", "potato", "bringal", "capsicum" };
             GenericMaximum<string> genericString = new GenericMaximum<string>(stringArray);
+            genericString.PrintMaxValue();
 
             Console.ReadKey();
         }
