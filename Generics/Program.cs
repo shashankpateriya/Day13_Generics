@@ -11,7 +11,8 @@ namespace Generics
             Console.WriteLine(output);
             double doubleoutput = MaximumNumberCheck.MaximumFloatNumber(17.8, 24.67, 70.96);
             Console.WriteLine(doubleoutput);
-
+            string strigoutput = MaximumNumberCheck.MaximumStringNumber("potato", "onion", "Tomato");
+            Console.WriteLine(strigoutput);
         }
     }
 }
